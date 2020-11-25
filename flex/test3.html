@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #333338;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #444;
+      }
+      .container {
+        display: flex;
+      }
+      .main-content,
+      .sidebar {
+        margin: 10px;
+        background-color: #eee;
+        padding: 6px;
+      }
+      .panel {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+      }
+
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* height: 100%;
+          box-sizing: border-box; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="main-content">
+        <div class="panel">
+          <h1>Main Title</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            obcaecati officiis doloremque blanditiis deleniti incidunt modi ex
+            quis delectus, vero soluta, amet cum a impedit dignissimos in?
+            Ipsam, quam deleniti.
+          </p>
+          <img src="http://placehold.it/200" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            laboriosam nesciunt possimus, ab nulla non sint molestiae temporibus
+            earum incidunt recusandae dolor, quia eius vel nisi, dicta autem
+            velit ipsam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            laboriosam nesciunt possimus, ab nulla non sint molestiae temporibus
+            earum incidunt recusandae dolor, quia eius vel nisi, dicta autem
+            velit ipsam?
+          </p>
+          <h3>Sub Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            laboriosam nesciunt possimus, ab nulla non sint molestiae temporibus
+            earum incidunt recusandae dolor, quia eius vel nisi, dicta autem
+            velit ipsam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            laboriosam nesciunt possimus, ab nulla non sint molestiae temporibus
+            earum incidunt recusandae dolor, quia eius vel nisi, dicta autem
+            velit ipsam?
+          </p>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="panel">
+          <h3>Item 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            itaque rem. Cupiditate repudiandae animi deleniti exercitationem
+            ullam alias, veritatis magni iste velit vel quibusdam obcaecati
+            praesentium sint consequatur sunt? Inventore.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Item 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="panel">
+          <h3>Item 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Item 4</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>

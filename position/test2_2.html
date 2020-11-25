@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .food-slide {
+        border: 2px solid green;
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+      }
+      .food-slide img {
+        float: left;
+      }
+      .controls a {
+        display: block;
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        text-align: center;
+        position: absolute;
+        white-space: nowrap; /*공백을 기준으로 엔터 넣지 말기*/
+        top: calc(50% - 25px);
+      }
+      .prev {
+        right: 1200px;
+      }
+      .next {
+        left: 1200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="food-slide">
+      <img
+        src="http://climateaction.re.kr/files/attach/images/87/489/168/4b9dc90d5db17bedf41650170e5d74f5.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nulla enim
+        placeat, voluptates, eius beatae distinctio tempore deserunt ad
+        blanditiis voluptatibus, totam laborum impedit corrupti eligendi numquam
+        debitis? Pariatur, voluptatibus.
+      </p>
+      <div class="controls">
+        <a href="" class="prev">Previous Project</a>
+        <a href="" class="next">Next Project</a>
+      </div>
+    </div>
+  </body>
+</html>

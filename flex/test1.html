@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Open Sans";
+        background-color: #ecf0f1;
+      }
+      .wrapper {
+        max-width: 60rem;
+        width: 100%;
+        margin: 2rem auto;
+      }
+      .flexbg {
+        display: flex;
+      }
+      .flexbg main {
+        background-color: #fff;
+        width: 60%;
+        padding: 1.618rem;
+        order: 2;
+      }
+      .flexbg .sidebar {
+        width: 20%;
+        padding: 1.618rem;
+      }
+      .flexbg .left {
+        order: 1;
+        background-color: #3498db;
+        color: white;
+      }
+      .flexbg .right {
+        order: 3;
+        background-color: #34495e;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper flexbg">
+      <main>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id provident
+          placeat tenetur labore rerum, quis ratione hic quo quaerat doloribus,
+          blanditiis quam esse accusamus impedit. Corrupti blanditiis enim
+          ducimus facere! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Fuga minima mollitia possimus magni sunt totam perspiciatis
+          veniam debitis nulla quibusdam, inventore, atque ducimus! Nam
+          reprehenderit voluptate accusamus animi necessitatibus quo!
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id provident
+          placeat tenetur labore rerum, quis ratione hic quo quaerat doloribus,
+          blanditiis quam esse accusamus impedit. Corrupti blanditiis enim
+          ducimus facere! Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Neque quasi quae quos tenetur doloribus debitis nostrum illo non
+          facilis vero mollitia blanditiis, fuga officiis! Repudiandae dolor
+          illo dolorum. Est, nihil!
+        </p>
+      </main>
+      <aside class="sidebar left">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </aside>
+      <aside class="sidebar right">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </aside>
+    </div>
+  </body>
+</html>

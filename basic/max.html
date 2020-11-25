@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 100px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 20px;
+        }
+        .child{
+            /* width: 800px; */
+            max-width: 400px; /*max-width가 없으면 밖으로 나간다 틀에맞춰서 최대한의 너비*/ 
+            min-width: 200px; /*요소의 최소너비:부모가작아도 최소의값 지키기*/
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+        </div>
+    </div>
+</body>
+</html>
